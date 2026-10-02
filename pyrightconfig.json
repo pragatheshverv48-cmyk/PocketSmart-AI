@@ -1,0 +1,9 @@
+{
+  "include": [
+    "app",
+    "run.py"
+  ],
+  "extraPaths": [
+    "/Library/Frameworks/Python.framework/Versions/3.15/lib/python3.15/site-packages"
+  ]
+}
