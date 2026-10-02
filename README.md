@@ -107,36 +107,35 @@ GEMINI_MODEL=gemini-2.5-flash
 SECRET_KEY=pocketsmart_ai_super_secret_jwt_key_2026
 ```
 
-### 4. Run Server
+### 4. Run Automated Tests
+```bash
+python test_app.py
+```
+
+### 5. Run Server
 ```bash
 python run.py
 ```
-Open your browser and navigate to https://pocketsmart-ai.onrender.com
+Open your browser and navigate to `http://localhost:8000`
 
 ---
 
 ## 🌐 Deploying to GitHub
 
-To push this codebase to a GitHub repository:
+We have included automated setup scripts for both macOS/Linux and Windows:
 
-1. **Initialize Git in the project root**:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: PocketSmart AI full-stack application"
-   ```
+- **macOS / Linux**: Run `./setup_git.sh`
+- **Windows**: Double click `setup_git.bat`
 
-2. **Create a new empty repository on GitHub**:
-   - Go to [GitHub - Create a New Repository](https://github.com/new).
-   - Set repository name: `pocketsmart-ai`.
-   - Do **NOT** initialize with README or license (we already have them).
-
-3. **Link remote and push**:
-   ```bash
-   git branch -M main
-   git remote add origin https://github.com/YOUR_GITHUB_USERNAME/pocketsmart-ai.git
-   git push -u origin main
-   ```
+Or run manually:
+```bash
+git init
+git add .
+git commit -m "Initial commit: PocketSmart AI full-stack application"
+git branch -M main
+git remote add origin https://github.com/YOUR_GITHUB_USERNAME/pocketsmart-ai.git
+git push -u origin main
+```
 
 ---
 
