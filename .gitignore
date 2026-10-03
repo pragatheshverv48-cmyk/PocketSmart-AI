@@ -28,3 +28,4 @@ static/uploads/*
 Thumbs.db
 *.log
 .agent-cache/
+*.zip
