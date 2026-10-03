@@ -1,9 +1,13 @@
 # PocketSmart AI: Your Smart Budget & Recommendation Assistant 🚀
 
-![PocketSmart AI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-brightgreen?style=for-the-badge&logo=github)](https://pragatheshverv48-cmyk.github.io/PocketSmart-AI/)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-2.5_Flash-8E44AD?style=for-the-badge&logo=google&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![CI Status](https://github.com/pragatheshverv48-cmyk/PocketSmart-AI/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)
+
+> 🌐 **Interactive Live Demo**: [https://pragatheshverv48-cmyk.github.io/PocketSmart-AI/](https://pragatheshverv48-cmyk.github.io/PocketSmart-AI/)
+
 
 Managing budgets across different lifestyle needs—like home decor, event planning, or jewelry shopping—can be overwhelming due to the vast variety of products, platforms, and price ranges. **PocketSmart AI** addresses this challenge through a GenAI-powered, cross-platform recommendation system that delivers personalized, budget-based suggestions with direct store query links to **Amazon, Flipkart, IKEA, Pepperfry, Swiggy, Zomato, OYO, and Tanishq**.
 
